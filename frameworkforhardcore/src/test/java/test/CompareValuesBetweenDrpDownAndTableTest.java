@@ -30,7 +30,7 @@ Assert.assertTrue((calculatorPage.getValueOfMachineClassFromTable()).
 Assert.assertTrue(calculatorPage.getValueOfMachineTypeFromTable().
         contains(calculatorPage.getValueOfMachineTypeFromDropDown()));
     }
-    @AfterMethod
+    @AfterTest
     public void webQuit(){
         driver.quit();
 
